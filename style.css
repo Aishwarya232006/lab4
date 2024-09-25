@@ -1,0 +1,51 @@
+.flex-container{
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+    border: solid black;
+    flex-direction: column;
+    background-color:plum;
+    color: white;
+}
+
+.flex-items{
+    padding: 5px;
+}
+caption{
+font-weight: bolder;
+}
+
+header{
+    font-size: larger;
+}
+
+nav{
+    background-color: skyblue;
+    border: solid black;
+    
+}
+
+li:hover{
+    -webkit-text-fill-color: chartreuse;
+}
+
+
+@keyframes example {
+    from {background-color: pink;}
+    to {background-color:skyblue;}
+  }
+  
+  /* The element to apply the animation to */
+   section{
+    width: 500px;
+    height: 500px;
+   background-color:lavender;
+    animation-name: example;
+    animation-duration: 10s;
+  }
+
+  a:active{
+    -webkit-text-fill-color: chartreuse;
+   
+  }
+ 
