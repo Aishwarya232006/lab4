@@ -1,0 +1,13 @@
+Introduction: I created a website about my hobby abd also added some image and links and audio in this
+Design choices: 
+Color scheme : for color scheme I choose 3 to 4 colors in  total in which on my index page I just design it with contrasting colors like lightseagreen to highlight the link for Contact form and then coralpink for all the headings and then varient of blue like light blue in table below so the reason for choosing these colors are they all look pretty decent together that's why.
+Typography: I chose the fonts to remain in the original text "sans-serif" because it was looking good as this font is also available in every system so everyone could see it in same font.Also I've used some bold fonts in headings so that it could look different than the other content.
+Layout:I included grid in my web page as it makes it SEO friendly and also the semantic tags like footer, header , anchor tag and so on for a better user experience.
+Multimedia elements: According to me Images ,videos and audios make any web page overall appearance better and also these elements makes it entertaining too . So by adding these in between my web page I made it a bit less boring. 
+Also I included so many links for songs in table and a clickable image which takes you to a website full of music memes.
+A navbar at top makes it SEO friendly too.
+
+The Challenges I faced During making this website were:
+During the implementation process, I encountered challenges with aligning elements using CSS Grid. To overcome this, I referred to online tutorials and documentation also I use idea of some code from several websites like MDN .One problem which I faced was, I created a caption in my index.html file and when I was trying to style it ,I was facing too much difficulty as it was not showing any changes then after taking the help from a website I got to know that I couldn't style a caption tag but then I got to know a new thing which is "It looks like the <caption> tag is used specifically for tables in HTML, which might be why your styling isn’t applying as expected. Instead, you can use a different HTML element, such as a <div> or <p>, to achieve the desired styling." so after that I changed it to a div tag and I was able to style that . Using GitHub for version control was beneficial, as it allowed me to track changes and collaborate effectively. Overall, the project enhanced my understanding of HTML and CSS, and I learned valuable problem-solving skills.
+
+This was all for my Report after all this practice and testing and trying stuff I was able to make a simple website but atleast I tried . Next time I'll try to improve it more and try to use more creativity but for now this was all I could do.
