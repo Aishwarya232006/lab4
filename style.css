@@ -1,34 +1,49 @@
-.flex-container{
-    display: flex;
-    padding: 20px;
-    margin: 30px;
-    border: solid black;
-    flex-direction: column;
-    background-color:plum;
+/* style.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
     color: white;
+    text-align: center;
+    padding: 1em 0;
 }
 
-.flex-items{
-    padding: 5px;
-}
-caption{
-font-weight: bolder;
-}
-
-header{
-    font-size: larger;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
 }
 
-nav{
-    background-color: skyblue;
-    border: solid black;
-    
+nav ul li {
+    margin: 0 1em;
 }
 
-li:hover{
-    -webkit-text-fill-color: chartreuse;
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
 }
 
+nav ul li a:hover {
+    background-color: #4CAF50;
+}
+
+section {
+    padding: 2em;
+    background-color: white;
+    margin: 2em auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 @keyframes example {
     from {background-color: pink;}
@@ -44,8 +59,30 @@ li:hover{
     animation-duration: 10s;
   }
 
-  a:active{
-    -webkit-text-fill-color: chartreuse;
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
    
-  }
- 
+}
+
+.flex-item {
+    background-color: #f4f4f4;
+    padding: 3em;
+    margin: 0.5em;
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+  
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
