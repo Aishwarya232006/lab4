@@ -86,3 +86,11 @@ footer {
     width: 100%;
     bottom: 0;
 }
+button{
+    background-color: black;
+    color: black;
+    border: solid black 2px;
+}
+a{
+    color: white;
+}
